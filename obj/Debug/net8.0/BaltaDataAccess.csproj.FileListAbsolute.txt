@@ -47,6 +47,7 @@ D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.GeneratedMSBuildEditorConfig
 D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.AssemblyInfoInputs.cache
 D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.AssemblyInfo.cs
 D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.csproj.CoreCompileInputs.cache
+D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.sourcelink.json
 D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDat.027767DB.Up2Date
 D:\BaltaDataAccess\obj\Debug\net8.0\BaltaDataAccess.dll
 D:\BaltaDataAccess\obj\Debug\net8.0\refint\BaltaDataAccess.dll

@@ -6,7 +6,7 @@ using Microsoft.Data.SqlClient;
 
 
 
-const string connectionString = "Server=localhost,1433clear;Database=balta;User ID=sa;Password=Virtual0522!=@#01";
+const string connectionString = "Server=localhost,1433;Database=balta;User Id=sa;Password=Virtual0522!=@#01; TrustServerCertificate=True; Trusted_Connection=True;";
 
 // Microsoft.Data.SqlClient
 
@@ -15,10 +15,11 @@ const string connectionString = "Server=localhost,1433clear;Database=balta;User 
 using (var connection = new SqlConnection(connectionString))
 {
     var categories = connection.Query<Category>("SELECT [Id], [Title] FROM [Category]");
-    foreach (var category in categories)
+    foreach (var item in categories)
     {
-        Console.WriteLine($"{category.Id} - {category.Title}");
+        Console.WriteLine($"{item.Id} - {item.Title}");
     }
+
 }
 
 
